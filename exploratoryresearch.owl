@@ -1,0 +1,539 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/grida/ontologies/2021/3/prolangtopics"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/grida/ontologies/2021/3/prolangtopics">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Algol_60"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Artificial_intelligence_application"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aspect_oriented_programming_paradigm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BLISS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Block"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Business_application"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bytecode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CPU"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Class"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cobol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Code_optimization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Compilation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Compiler"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Computer_components"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Constraint_programming_paradigm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Control"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Datatype"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Declarative_programming_paradigm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Easy_to_maintain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Easy_to_read"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Event_driven_programming_paradigm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Expression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flow_driven_programming_paradigm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fortran"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Functional_programming_paradigm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Good_program_characteristics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Good_programming"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HTML"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#High_level_code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hybrid_implementation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Imperative_programming_paradigm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Indentation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Input_device"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intermediate_code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interpretation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interpreter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JIT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JIT_compiler"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Java"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JavaScript"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Java_virtual_machine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LISP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Language_domain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Less_bug"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Logical_programming_paradigm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Long_evolution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Machine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Machine_code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Memory_unit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Method"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#No_runtime_error"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Object-OrientedProgramming"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Object_oriented_programming_paradigm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Output_device"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PHP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pascal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Principles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Program_implementation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Programming_framework"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Programming_languages"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Programming_paradigm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prolog"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Python"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RPG"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reflective_programming_paradigm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scheme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scientific_application"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System_programming"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Variable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Von_neumann"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Web_software"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Work_correctly"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#XSLT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C++"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PL/S"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isIn"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#foundin"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Algol_60"/>
+        <Class IRI="#Programming_languages"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Artificial_intelligence_application"/>
+        <Class IRI="#Language_domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aspect_oriented_programming_paradigm"/>
+        <Class IRI="#Programming_paradigm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BLISS"/>
+        <Class IRI="#Programming_languages"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Block"/>
+        <Class IRI="#Good_programming"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Business_application"/>
+        <Class IRI="#Language_domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bytecode"/>
+        <Class IRI="#Intermediate_code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C"/>
+        <Class IRI="#Programming_languages"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CPU"/>
+        <Class IRI="#Computer_components"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Class"/>
+        <Class IRI="#Object-OrientedProgramming"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cobol"/>
+        <Class IRI="#Programming_languages"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Code_optimization"/>
+        <Class IRI="#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Compilation"/>
+        <Class IRI="#Program_implementation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Compiler"/>
+        <Class IRI="#Machine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Constraint_programming_paradigm"/>
+        <Class IRI="#Programming_paradigm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Control"/>
+        <Class IRI="#Principles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Datatype"/>
+        <Class IRI="#Principles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Declarative_programming_paradigm"/>
+        <Class IRI="#Programming_paradigm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Easy_to_maintain"/>
+        <Class IRI="#Good_program_characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Easy_to_read"/>
+        <Class IRI="#Good_program_characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Event_driven_programming_paradigm"/>
+        <Class IRI="#Programming_paradigm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Expression"/>
+        <Class IRI="#Principles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flow_driven_programming_paradigm"/>
+        <Class IRI="#Programming_paradigm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fortran"/>
+        <Class IRI="#Programming_languages"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Functional_programming_paradigm"/>
+        <Class IRI="#Programming_paradigm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HTML"/>
+        <Class IRI="#Programming_languages"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#High_level_code"/>
+        <Class IRI="#Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hybrid_implementation"/>
+        <Class IRI="#Program_implementation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Imperative_programming_paradigm"/>
+        <Class IRI="#Programming_paradigm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Indentation"/>
+        <Class IRI="#Good_programming"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Input_device"/>
+        <Class IRI="#Computer_components"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intermediate_code"/>
+        <Class IRI="#Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interpretation"/>
+        <Class IRI="#Program_implementation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interpreter"/>
+        <Class IRI="#Machine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JIT"/>
+        <Class IRI="#Programming_framework"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JIT_compiler"/>
+        <Class IRI="#Compiler"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Java"/>
+        <Class IRI="#Programming_languages"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JavaScript"/>
+        <Class IRI="#Programming_languages"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Java_virtual_machine"/>
+        <Class IRI="#Interpreter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LISP"/>
+        <Class IRI="#Programming_languages"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Less_bug"/>
+        <Class IRI="#Good_program_characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Logical_programming_paradigm"/>
+        <Class IRI="#Programming_paradigm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Long_evolution"/>
+        <Class IRI="#Good_program_characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Machine_code"/>
+        <Class IRI="#Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Memory_unit"/>
+        <Class IRI="#Computer_components"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Method"/>
+        <Class IRI="#Object-OrientedProgramming"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#No_runtime_error"/>
+        <Class IRI="#Good_program_characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Object-OrientedProgramming"/>
+        <Class IRI="#Principles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Object_oriented_programming_paradigm"/>
+        <Class IRI="#Programming_paradigm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Output_device"/>
+        <Class IRI="#Computer_components"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PHP"/>
+        <Class IRI="#Programming_languages"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pascal"/>
+        <Class IRI="#Programming_languages"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prolog"/>
+        <Class IRI="#Programming_languages"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Python"/>
+        <Class IRI="#Programming_languages"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RPG"/>
+        <Class IRI="#Programming_languages"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reflective_programming_paradigm"/>
+        <Class IRI="#Programming_paradigm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scheme"/>
+        <Class IRI="#Programming_languages"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scientific_application"/>
+        <Class IRI="#Language_domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#System_programming"/>
+        <Class IRI="#Language_domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Variable"/>
+        <Class IRI="#Principles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Von_neumann"/>
+        <Class IRI="#Machine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Web_software"/>
+        <Class IRI="#Language_domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Work_correctly"/>
+        <Class IRI="#Good_program_characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#XSLT"/>
+        <Class IRI="#Programming_languages"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C++"/>
+        <Class IRI="#Programming_languages"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PL/S"/>
+        <Class IRI="#Programming_languages"/>
+    </SubClassOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isIn"/>
+        <Class IRI="#Programming_languages"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isIn"/>
+        <Class IRI="#Language_domain"/>
+    </ObjectPropertyRange>
+    <AnnotationPropertyRange>
+        <AnnotationProperty IRI="#foundin"/>
+        <IRI>#Programming_languages</IRI>
+    </AnnotationPropertyRange>
+    <AnnotationPropertyDomain>
+        <AnnotationProperty IRI="#foundin"/>
+        <IRI>#Good_programming</IRI>
+    </AnnotationPropertyDomain>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
